@@ -40,9 +40,8 @@ sites:
     maxResponseTime: 5000
 
 status-website:
-  # Served at ultrakompis.com/status (the user Pages site's domain). For status.mcrsc.org instead:
-  # set `cname: status.mcrsc.org`, remove baseUrl, and add the CNAME record in Cloudflare.
-  baseUrl: /status
+  # DNS: a CNAME record status → md7marcu.github.io in Cloudflare, DNS only (not proxied).
+  cname: status.mcrsc.org
   name: Status
   introTitle: "Service status"
   introMessage: "WhereToWatch and brak. Checked every few minutes from GitHub."
