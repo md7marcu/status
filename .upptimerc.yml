@@ -1,31 +1,56 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# One status page for all of md7marcu's projects. Each project is a group of rows; to add one,
+# copy a block below. Checks run from GitHub Actions every 5 minutes (often later).
+# Body rules read the JSON each /health returns; never put keys or private URLs here (public repo).
+owner: md7marcu
+repo: status
+# Down and degraded issues are assigned here, so GitHub notifies on every change of state.
+assignees:
+  - md7marcu
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  # WhereToWatch: /health is {"status":…,"env":…,"db":"ok","search":"ok"}
+  - name: WhereToWatch API
+    url: https://wtw.mcrsc.org/health
+    __dangerous__body_down_if_text_missing: '"db":"ok"'
+    maxResponseTime: 5000
+  - name: WhereToWatch search
+    url: https://wtw.mcrsc.org/health
+    expectedStatusCodes: [200]
+    __dangerous__body_degraded: '"search":"unreachable"'
+    slug: wheretowatch-search
+  - name: WhereToWatch deploys
+    # The listener answers GET /webhook with 404 "not found"; a stopped listener or tunnel gives 502/530.
+    url: https://wtw.mcrsc.org/webhook
+    expectedStatusCodes: [404]
+    __dangerous__body_down_if_text_missing: "not found"
+  - name: WhereToWatch API (staging)
+    url: https://wtw-staging.mcrsc.org/health
+    __dangerous__body_down_if_text_missing: '"db":"ok"'
+    maxResponseTime: 5000
+  - name: WhereToWatch search (staging)
+    url: https://wtw-staging.mcrsc.org/health
+    expectedStatusCodes: [200]
+    __dangerous__body_degraded: '"search":"unreachable"'
+    slug: wheretowatch-search-staging
+
+  # brak: /health is {"status":"ok",…,"services":{"database":"connected"}}
+  - name: brak API
+    url: https://brak.mcrsc.org/health
+    __dangerous__body_down_if_text_missing: '"database":"connected"'
+    maxResponseTime: 5000
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # Served at ultrakompis.com/status (the user Pages site's domain). For status.mcrsc.org instead:
+  # set `cname: status.mcrsc.org`, remove baseUrl, and add the CNAME record in Cloudflare.
+  baseUrl: /status
+  name: Status
+  introTitle: "Service status"
+  introMessage: "WhereToWatch and brak. Checked every few minutes from GitHub."
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Secrets the checks may read: none. GH_PAT is passed separately.
+secrets: []
