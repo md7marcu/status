@@ -1,7 +1,7 @@
 url: https://wtw-staging.mcrsc.org/health
-status: up
-code: 200
-responseTime: 320
-lastUpdated: 2026-11-06T02:55:10.523Z
+status: down
+code: 530
+responseTime: 39
+lastUpdated: 2026-11-06T23:40:18.397Z
 startTime: 2026-11-01T04:24:59.032Z
 generator: Upptime <https://github.com/upptime/upptime>
