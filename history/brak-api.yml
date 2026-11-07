@@ -1,7 +1,7 @@
 url: https://brak.mcrsc.org/health
-status: down
-code: 530
-responseTime: 45
-lastUpdated: 2026-11-07T02:26:56.441Z
+status: up
+code: 200
+responseTime: 436
+lastUpdated: 2026-11-07T20:16:20.852Z
 startTime: 2026-11-01T04:24:59.511Z
 generator: Upptime <https://github.com/upptime/upptime>
