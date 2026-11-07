@@ -5,18 +5,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/wtw.mcrsc.org.ico",
     "slug": "where-to-watch-api",
     "status": "down",
-    "uptime": "99.98%",
-    "uptimeDay": "99.90%",
-    "uptimeWeek": "99.98%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
-    "time": 323,
-    "timeDay": 205,
-    "timeWeek": 323,
-    "timeMonth": 323,
-    "timeYear": 323,
+    "uptime": "96.17%",
+    "uptimeDay": "76.90%",
+    "uptimeWeek": "96.17%",
+    "uptimeMonth": "96.17%",
+    "uptimeYear": "96.17%",
+    "time": 287,
+    "timeDay": 41,
+    "timeWeek": 287,
+    "timeMonth": 287,
+    "timeYear": 287,
     "dailyMinutesDown": {
-      "2026-11-06": 1
+      "2026-11-07": 312,
+      "2026-11-06": 21
     }
   },
   {
@@ -25,18 +26,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/wtw.mcrsc.org.ico",
     "slug": "wheretowatch-search",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 238,
-    "timeDay": 203,
-    "timeWeek": 238,
-    "timeMonth": 238,
-    "timeYear": 238,
+    "uptime": "96.17%",
+    "uptimeDay": "76.91%",
+    "uptimeWeek": "96.17%",
+    "uptimeMonth": "96.17%",
+    "uptimeYear": "96.17%",
+    "time": 216,
+    "timeDay": 46,
+    "timeWeek": 216,
+    "timeMonth": 216,
+    "timeYear": 216,
     "dailyMinutesDown": {
-      "2026-11-06": 1
+      "2026-11-07": 312,
+      "2026-11-06": 20
     }
   },
   {
@@ -45,18 +47,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/wtw.mcrsc.org.ico",
     "slug": "where-to-watch-deploys",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.94%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 157,
-    "timeDay": 156,
-    "timeWeek": 157,
-    "timeMonth": 157,
-    "timeYear": 157,
+    "uptime": "96.18%",
+    "uptimeDay": "76.93%",
+    "uptimeWeek": "96.18%",
+    "uptimeMonth": "96.18%",
+    "uptimeYear": "96.18%",
+    "time": 143,
+    "timeDay": 38,
+    "timeWeek": 143,
+    "timeMonth": 143,
+    "timeYear": 143,
     "dailyMinutesDown": {
-      "2026-11-06": 1
+      "2026-11-07": 312,
+      "2026-11-06": 20
     }
   },
   {
@@ -65,18 +68,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/wtw-staging.mcrsc.org.ico",
     "slug": "where-to-watch-api-staging",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 376,
-    "timeDay": 207,
-    "timeWeek": 376,
-    "timeMonth": 376,
-    "timeYear": 376,
+    "uptime": "96.18%",
+    "uptimeDay": "76.95%",
+    "uptimeWeek": "96.18%",
+    "uptimeMonth": "96.18%",
+    "uptimeYear": "96.18%",
+    "time": 334,
+    "timeDay": 41,
+    "timeWeek": 334,
+    "timeMonth": 334,
+    "timeYear": 334,
     "dailyMinutesDown": {
-      "2026-11-06": 1
+      "2026-11-07": 312,
+      "2026-11-06": 20
     }
   },
   {
@@ -85,18 +89,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/wtw-staging.mcrsc.org.ico",
     "slug": "wheretowatch-search-staging",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 177,
-    "timeDay": 180,
-    "timeWeek": 177,
-    "timeMonth": 177,
-    "timeYear": 177,
+    "uptime": "96.18%",
+    "uptimeDay": "76.97%",
+    "uptimeWeek": "96.18%",
+    "uptimeMonth": "96.18%",
+    "uptimeYear": "96.18%",
+    "time": 160,
+    "timeDay": 43,
+    "timeWeek": 160,
+    "timeMonth": 160,
+    "timeYear": 160,
     "dailyMinutesDown": {
-      "2026-11-06": 0
+      "2026-11-07": 312,
+      "2026-11-06": 20
     }
   },
   {
@@ -105,18 +110,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/brak.mcrsc.org.ico",
     "slug": "brak-api",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 244,
-    "timeDay": 186,
-    "timeWeek": 244,
-    "timeMonth": 244,
-    "timeYear": 244,
+    "uptime": "96.18%",
+    "uptimeDay": "76.98%",
+    "uptimeWeek": "96.18%",
+    "uptimeMonth": "96.18%",
+    "uptimeYear": "96.18%",
+    "time": 219,
+    "timeDay": 52,
+    "timeWeek": 219,
+    "timeMonth": 219,
+    "timeYear": 219,
     "dailyMinutesDown": {
-      "2026-11-06": 0
+      "2026-11-07": 312,
+      "2026-11-06": 19
     }
   }
 ]
